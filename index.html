@@ -2,22 +2,41 @@
 <html lang="en">
 
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Linear+B&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kenia&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap" rel="stylesheet">
 
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap'64);
-        font-family: 'Edu TAS Beginner', cursive;
-      </style>
-    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Selectors</title>
+    <style>
+        p {
+            font-size: 16px;
+            font-family: 'Noto Sans Linear B', sans-serif;
+        }
+        h1 {
+            font-size: 30px;
+            font-family: 'Kenia', sans-serif;
+        }
+        h2 {
+            font-size: 20px;
+            font-family: 'Bebas Neue', sans-serif;
+        }
+        li {
+            font-size: 16px;
+            font-family: 'Edu TAS Beginner', cursive;
+        }
+    </style>
 </head>
 
 <body>
-    <h1>CSS Selectors</h1>
+    <h1 style="color: blueviolet;"> CSS Selectors</h1>
     <p>A CSS selector selects the HTML element(s) you want to style.</p>
     <div class="selectors">
-        <h2>CSS Selectors</h2>
+        <h2 style="color: aqua;">CSS Selectors</h2>
         <p>CSS selectors are used to "find" (or select) the HTML elements you want to style.</p>
         <p>We can divide CSS selectors into five categories:</p>
         <ul>
@@ -30,20 +49,20 @@
         </ul>
     </div>
     <hr>
-    <h2 class="selector">The CSS <span>element</span> Selector</h2>
+    <h2 style="color: aqua;" class="selector">The CSS <span>element</span> Selector</h2>
     <p>The element selector selects HTML elements based on the element <span>name</span> (body, p, h1, h5, a, div, etc.).</p>
     <hr>
-    <h2 class="selector">The CSS <span>id</span> Selector</h2>
+    <h2 style="color: aqua;" class="selector">The CSS <span>id</span> Selector</h2>
     <p>The id selector uses the id attribute of an HTML element to select a specific element.</p>
     <p>The id of an element is unique within a page, so the id selector is used to select one unique element!</p>
     <p>To select an element with a specific id, write a hash <span>(#)</span> character, followed by the id of the element.</p>
     <hr>
-    <h2 class="selector">The CSS <span>class</span> Selector</h2>
+    <h2 style="color: aqua;" class="selector">The CSS <span>class</span> Selector</h2>
     <p>The class selector selects HTML elements with a specific class attribute.</p>
     <p>To select elements with a specific class, write a period <span>(.)</span> character, followed by the class name.</p>
     <hr>
 
-    <h2 id="universal">The CSS <span>Universal</span> Selector</h2>
+    <h2 style="color: aqua;" id="universal">The CSS <span>Universal</span> Selector</h2>
     <p>The universal selector <span>(*)</span> selects all HTML elements on the page.</p>
 
     <div>
