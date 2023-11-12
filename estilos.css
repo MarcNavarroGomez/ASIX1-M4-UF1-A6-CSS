@@ -1,0 +1,75 @@
+
+/* Regla 1: Tipo de fuente del documento */
+* {
+    font-family: 'TuTipoDeFuente', sans-serif; /* Reemplaza 'TuTipoDeFuente' con el nombre de la fuente que desees */
+}
+
+/* Regla 2: Estilo para el elemento body */
+body {
+    margin: 0;
+    padding: 0 20%;
+}
+
+/* Regla 3: Estilo para elementos h1 */
+h1 {
+    text-decoration: underline;
+    color: darkcyan;
+    text-align: center;
+}
+
+/* Regla 4: Estilo para elementos con clase selector */
+.selector {
+    color: lightcyan;
+}
+
+/* Regla 5: Estilo para elementos con clase selectors */
+.selectors {
+    padding: 5%;
+    border: solid darkcyan 1px;
+    border-radius: 5px;
+}
+
+/* Regla 6: Estilo para elementos con id universal */
+#universal {
+    color: lightgoldenrodyellow;
+}
+
+/* Regla 7: Estilo para elementos h2 con clase selector y elementos h2 con id universal */
+h2.selector,
+h2#universal {
+    background-color: darkcyan;
+    padding: 1%;
+    border-radius: 5px;
+}
+
+/* Regla 8: Estilo para elementos span */
+span {
+    font-weight: 900;
+    background-color: black;
+    color: white;
+}
+
+/* Regla 9: Estilo para elementos a que son hijos directos de li */
+li > a {
+    text-decoration: none;
+}
+
+/* Regla 10: Estilo para elementos h3 */
+h3 {
+    background-color: rgba(0, 139, 139, 0.529);
+    padding: 0.5px;
+    border-radius: 5px;
+}
+
+/* Regla 11: Estilo para elementos div que son descendientes de un elemento con id "gallery" */
+#gallery div {
+    width: 100%;
+}
+
+/* Regla 12: Estilo para elementos img */
+img {
+    width: 100%;
+    border: solid darkcyan 1px;
+    border-radius: 5px;
+}
+
